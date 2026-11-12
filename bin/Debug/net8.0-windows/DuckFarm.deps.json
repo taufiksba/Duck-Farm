@@ -1,0 +1,130 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "DuckFarm/1.0.0": {
+        "dependencies": {
+          "FontAwesome.Sharp": "6.6.0",
+          "Krypton.Toolkit.LTS": "105.26.11.314"
+        },
+        "runtime": {
+          "DuckFarm.dll": {}
+        }
+      },
+      "FontAwesome.Sharp/6.6.0": {
+        "runtime": {
+          "lib/net8.0-windows7.0/FontAwesome.Sharp.dll": {
+            "assemblyVersion": "6.6.0.0",
+            "fileVersion": "6.6.0.0"
+          }
+        }
+      },
+      "Krypton.Toolkit.LTS/105.26.11.314": {
+        "dependencies": {
+          "System.Formats.Nrbf": "9.0.10",
+          "System.Resources.Extensions": "9.0.10"
+        },
+        "runtime": {
+          "lib/net8.0-windows7.0/Krypton.Toolkit.dll": {
+            "assemblyVersion": "105.26.11.314",
+            "fileVersion": "105.26.11.314"
+          }
+        }
+      },
+      "System.Collections.Immutable/9.0.10": {
+        "runtime": {
+          "lib/net8.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1025.47515"
+          }
+        }
+      },
+      "System.Formats.Nrbf/9.0.10": {
+        "dependencies": {
+          "System.Reflection.Metadata": "9.0.10"
+        },
+        "runtime": {
+          "lib/net8.0/System.Formats.Nrbf.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1025.47515"
+          }
+        }
+      },
+      "System.Reflection.Metadata/9.0.10": {
+        "dependencies": {
+          "System.Collections.Immutable": "9.0.10"
+        },
+        "runtime": {
+          "lib/net8.0/System.Reflection.Metadata.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1025.47515"
+          }
+        }
+      },
+      "System.Resources.Extensions/9.0.10": {
+        "dependencies": {
+          "System.Formats.Nrbf": "9.0.10"
+        },
+        "runtime": {
+          "lib/net8.0/System.Resources.Extensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.1025.47515"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DuckFarm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FontAwesome.Sharp/6.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bJCb2x73UC1nD9+9iMLaUy6Ujf9Pf+buL6FHwVnaoDYT4CQNLazz59hO5gQ0+SMSW0G+ZXmjjShOYr3Jn2UZiw==",
+      "path": "fontawesome.sharp/6.6.0",
+      "hashPath": "fontawesome.sharp.6.6.0.nupkg.sha512"
+    },
+    "Krypton.Toolkit.LTS/105.26.11.314": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8INWGpAOCuOP6sWuxCFkcoqISiwT8MdVSumqfKHbStWXUxC7A97aQAWBzVa0cFOECOtfzAEV7gF9bm1u0sSWHQ==",
+      "path": "krypton.toolkit.lts/105.26.11.314",
+      "hashPath": "krypton.toolkit.lts.105.26.11.314.nupkg.sha512"
+    },
+    "System.Collections.Immutable/9.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2FkVxKnJVqFtv5zGKSEu2FPqbOScpxw+CvgV0C2MYtXPrT1ZcylAdYlTj3S64iRDV7HGykvagoadUUhZN1/eQg==",
+      "path": "system.collections.immutable/9.0.10",
+      "hashPath": "system.collections.immutable.9.0.10.nupkg.sha512"
+    },
+    "System.Formats.Nrbf/9.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+VfZoj92NpcsMaFwcSVgW5Wawyg3vWb6kXjyfyyNqtRs5BHJEY7ADKsMsuztneM3x87uAD7DS6/hNQl48XrkHQ==",
+      "path": "system.formats.nrbf/9.0.10",
+      "hashPath": "system.formats.nrbf.9.0.10.nupkg.sha512"
+    },
+    "System.Reflection.Metadata/9.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iENGK3Ds8p+96EXRA4lOoONoCOcfoxhG4KVFNfIjXnBVXHDK43hpG/Ky1btxZdNGjHAY06F4FcnLgAsnfMtWFw==",
+      "path": "system.reflection.metadata/9.0.10",
+      "hashPath": "system.reflection.metadata.9.0.10.nupkg.sha512"
+    },
+    "System.Resources.Extensions/9.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+VsO3qqlf7FJB+4XHNylRDLI49Av6V6Ys42blWZY7DOr0LB/XrGqPCyrQ1Zfd7PWeq2bv7VQPEwgvcQykkDCwA==",
+      "path": "system.resources.extensions/9.0.10",
+      "hashPath": "system.resources.extensions.9.0.10.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Classes\Controls\AppButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\Controls\AppComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\Controls\AppDatePicker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\Controls\AppLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\Controls\AppPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\Controls\AppTexBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Classes\DuckSidebar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="Classes\ThemeToggleSwitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Forms\Dashboard\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Development\frmKryptonThemeDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Transaksi\frmTrnAbsensidanHasilCWR.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\Transaksi\frmTrnAbsensidanHasilCWRShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="DUCKMENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

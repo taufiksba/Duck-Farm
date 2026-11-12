@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>DuckFarm</RootNamespace>
+    <AssemblyName>DuckFarm</AssemblyName>
+    <StartupObject>DuckFarm.Program</StartupObject>
+    <LangVersion>8.0</LangVersion>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FontAwesome.Sharp" Version="6.6.0" />
+    <PackageReference Include="Krypton.Toolkit.LTS" Version="105.26.11.314" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <EmbeddedResource Update="Forms\Transaksi\frmTrnAbsensidanHasilCWR.resx">
+      <DependentUpon>frmTrnAbsensidanHasilCWR.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Forms\Transaksi\frmTrnAbsensidanHasilCWRShow.resx">
+      <DependentUpon>frmTrnAbsensidanHasilCWRShow.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+
+</Project>

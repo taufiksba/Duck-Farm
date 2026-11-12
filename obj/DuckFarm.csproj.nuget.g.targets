@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)krypton.toolkit.lts\105.26.11.314\buildTransitive\Krypton.Toolkit.LTS.targets" Condition="Exists('$(NuGetPackageRoot)krypton.toolkit.lts\105.26.11.314\buildTransitive\Krypton.Toolkit.LTS.targets')" />
+  </ImportGroup>
+</Project>

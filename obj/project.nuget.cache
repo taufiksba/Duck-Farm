@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "BtMQsfTl2gs=",
+  "success": true,
+  "projectFilePath": "D:\\MyProject\\GitHub\\DuckFarm\\DuckFarm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Asus Vivobook\\.nuget\\packages\\fontawesome.sharp\\6.6.0\\fontawesome.sharp.6.6.0.nupkg.sha512",
+    "C:\\Users\\Asus Vivobook\\.nuget\\packages\\krypton.toolkit.lts\\105.26.11.314\\krypton.toolkit.lts.105.26.11.314.nupkg.sha512",
+    "C:\\Users\\Asus Vivobook\\.nuget\\packages\\system.collections.immutable\\9.0.10\\system.collections.immutable.9.0.10.nupkg.sha512",
+    "C:\\Users\\Asus Vivobook\\.nuget\\packages\\system.formats.nrbf\\9.0.10\\system.formats.nrbf.9.0.10.nupkg.sha512",
+    "C:\\Users\\Asus Vivobook\\.nuget\\packages\\system.reflection.metadata\\9.0.10\\system.reflection.metadata.9.0.10.nupkg.sha512",
+    "C:\\Users\\Asus Vivobook\\.nuget\\packages\\system.resources.extensions\\9.0.10\\system.resources.extensions.9.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
